@@ -534,7 +534,14 @@ div.output .buttons {
   line-height: 1.2em;
 }
 
-.presenter p:first-of-type {
+/* 
+ * websites appear in a second .presenter element
+ * but CSS does not seem to have ways to express
+ * "first-of-class" so we just specifically don't
+ * match the first link that would otherwise have
+ * increased font size
+ */
+.presenter p:first-of-type:not(.link) {
     font-size: 36px;
 }
 
