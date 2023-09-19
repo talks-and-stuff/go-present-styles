@@ -279,6 +279,10 @@
     display: none;
     visibility: hidden;
   }
+
+  .pagenumber {
+    display: none; /* numbers' position is incorrect, just hide them */
+  }
 }
 
 /* Styles for slides */
