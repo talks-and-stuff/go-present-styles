@@ -259,7 +259,7 @@
 
     position: relative;
 
-    page-break-inside: never;
+    page-break-inside: avoid;
     page-break-after: always;
 
     overflow: hidden;
